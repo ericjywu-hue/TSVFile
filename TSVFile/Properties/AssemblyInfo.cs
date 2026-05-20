@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("元智大學資工系")]
 [assembly: AssemblyProduct("TSV資料檔讀取")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
+[assembly: AssemblyCopyright("Copyright ©  2026 by Eric Wu")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

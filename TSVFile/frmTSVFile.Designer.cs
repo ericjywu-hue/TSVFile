@@ -53,7 +53,7 @@
             this.tsmiHelp});
             this.mnsWord.Location = new System.Drawing.Point(0, 0);
             this.mnsWord.Name = "mnsWord";
-            this.mnsWord.Size = new System.Drawing.Size(800, 30);
+            this.mnsWord.Size = new System.Drawing.Size(527, 28);
             this.mnsWord.TabIndex = 0;
             this.mnsWord.Text = "menuStrip1";
             // 
@@ -63,12 +63,14 @@
             this.tsmiOpen,
             this.tsmiExit});
             this.tsmiFile.Name = "tsmiFile";
+            this.tsmiFile.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F)));
             this.tsmiFile.Size = new System.Drawing.Size(48, 24);
             this.tsmiFile.Text = "File";
             // 
             // tsmiOpen
             // 
             this.tsmiOpen.Name = "tsmiOpen";
+            this.tsmiOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.tsmiOpen.Size = new System.Drawing.Size(224, 26);
             this.tsmiOpen.Text = "Open";
             this.tsmiOpen.Click += new System.EventHandler(this.tsmiOpen_Click);
@@ -76,6 +78,7 @@
             // tsmiExit
             // 
             this.tsmiExit.Name = "tsmiExit";
+            this.tsmiExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
             this.tsmiExit.Size = new System.Drawing.Size(224, 26);
             this.tsmiExit.Text = "Exit";
             this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
@@ -85,12 +88,14 @@
             this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiAbout});
             this.tsmiHelp.Name = "tsmiHelp";
+            this.tsmiHelp.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.H)));
             this.tsmiHelp.Size = new System.Drawing.Size(58, 24);
             this.tsmiHelp.Text = "Help";
             // 
             // tsmiAbout
             // 
             this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.tsmiAbout.Size = new System.Drawing.Size(224, 26);
             this.tsmiAbout.Text = "About";
             this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
@@ -105,9 +110,9 @@
             this.lvwWord.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvwWord.FullRowSelect = true;
             this.lvwWord.HideSelection = false;
-            this.lvwWord.Location = new System.Drawing.Point(0, 30);
+            this.lvwWord.Location = new System.Drawing.Point(0, 28);
             this.lvwWord.Name = "lvwWord";
-            this.lvwWord.Size = new System.Drawing.Size(800, 420);
+            this.lvwWord.Size = new System.Drawing.Size(527, 422);
             this.lvwWord.TabIndex = 1;
             this.lvwWord.UseCompatibleStateImageBehavior = false;
             this.lvwWord.View = System.Windows.Forms.View.Details;
@@ -136,7 +141,7 @@
             this.tsslMessage});
             this.ssrWord.Location = new System.Drawing.Point(0, 424);
             this.ssrWord.Name = "ssrWord";
-            this.ssrWord.Size = new System.Drawing.Size(800, 26);
+            this.ssrWord.Size = new System.Drawing.Size(527, 26);
             this.ssrWord.TabIndex = 2;
             this.ssrWord.Text = "statusStrip1";
             // 
@@ -150,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(527, 450);
             this.Controls.Add(this.ssrWord);
             this.Controls.Add(this.lvwWord);
             this.Controls.Add(this.mnsWord);
